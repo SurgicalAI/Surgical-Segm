@@ -14,19 +14,6 @@ Team members
 ------------
 Ionela Daniela Gal 
 
-Citation
-----------
-
-If you find this work useful for your publications, please consider citing::
-
-    @inproceedings{shvets2018automatic,
-    title={Automatic Instrument Segmentation in Robot-Assisted Surgery using Deep Learning},
-    author={Shvets, Alexey A and Rakhlin, Alexander and Kalinin, Alexandr A and Iglovikov, Vladimir I}},
-    booktitle={2018 17th IEEE International Conference on Machine Learning and Applications (ICMLA)},
-    pages={624--628},
-    year={2018}
-    }
-
 Overview
 --------
 Semantic segmentation of robotic instruments is an important problem for the robot-assisted surgery. One of the main challenges is to correctly detect an instrument's position for the tracking and pose estimation in the vicinity of surgical scenes. Accurate pixel-wise instrument segmentation is needed to address this challenge. Our approach demonstrates an improvement over the state-of-the-art results using several novel deep neural network architectures. It addressed the binary segmentation problem, where every pixel in an image is labeled as an instrument or background from the surgery video feed. In addition, we solve a multi-class segmentation problem, in which we distinguish between different instruments or different parts of an instrument from the background. In this setting, our approach outperforms other methods in every task subcategory for automatic instrument segmentation thereby providing state-of-the-art results for these problems.
